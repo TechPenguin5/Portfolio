@@ -9,32 +9,32 @@ export function DraggablePhotoPreview() {
     {
         title: "April 18, 2023",
         image: "/images/photos/12-05-19.jpg",
-        className: "absolute top-10 left-[10%] rotate-[-5deg]",
+        className: "absolute top-10 left-[0%] rotate-[-5deg]",
     },
     {
         title: "April 2, 2023",
         image: "/images/photos/04-03-23.jpg",
-        className: "absolute top-25 left-[63%] rotate-[8deg]",
+        className: "absolute top-25 left-[53%] rotate-[8deg]",
     },
     {
         title: "April 13, 2023",
         image: "/images/photos/04-13-23.jpeg",
-        className: "absolute top-12 left-[35%] rotate-[10deg]",
+        className: "absolute top-12 left-[25%] rotate-[10deg]",
     },
     {
         title: "May 10, 2023",
         image: "/images/photos/05-10-23.jpeg",
-        className: "absolute top-66 right-[33%] rotate-[2deg]",
+        className: "absolute top-66 right-[43%] rotate-[2deg]",
     },
     {
         title: "June 03, 2023",
         image: "/images/photos/06-03-23.jpg",
-        className: "absolute top-67 left-[67%] rotate-[-7deg]",
+        className: "absolute top-67 left-[57%] rotate-[-7deg]",
     },
     {
         title: "December 05, 2019",
         image: "/images/photos/04-18-23.jpg",
-        className: "absolute top-65 left-[12%] rotate-[4deg]",
+        className: "absolute top-65 left-[2%] rotate-[4deg]",
     },
   ];
   return (
