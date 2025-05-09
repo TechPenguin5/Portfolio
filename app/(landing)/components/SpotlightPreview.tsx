@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { Spotlight } from "@/app/components/ui/spotlight-new";
+import { TextGenerateEffectPreview } from "./TextGenerateEffectPreview";
+
 
 export function SpotlightPreview() {
   return (
@@ -11,7 +13,7 @@ export function SpotlightPreview() {
         Malindra Perera <br /> Fullstack Developer.
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-        I DESIGN & CREATE DIGITAL EXPERIENCES
+        <TextGenerateEffectPreview />
         </p>
       </div>
     </div>
