@@ -3,7 +3,6 @@ import React from "react";
 import { Spotlight } from "@/app/components/ui/spotlight-new";
 import { TextGenerateEffectPreview } from "./TextGenerateEffectPreview";
 
-
 export function SpotlightPreview() {
   return (
     <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">

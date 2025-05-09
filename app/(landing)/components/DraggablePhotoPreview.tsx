@@ -7,34 +7,34 @@ import {
 export function DraggablePhotoPreview() {
   const items = [
     {
-        title: "",
-        image: "/images/photos/04-18-23.jpg",
-        className: "absolute top-10 left-[20%] rotate-[-5deg]",
+        title: "April 18, 2023",
+        image: "/images/photos/12-05-19.jpg",
+        className: "absolute top-10 left-[10%] rotate-[-5deg]",
     },
     {
         title: "April 2, 2023",
         image: "/images/photos/04-03-23.jpg",
-        className: "absolute top-32 left-[55%] rotate-[10deg]",
-    },
-    {
-        title: "April 2, 2023",
-        image: "/images/photos/05-10-23.jpeg",
-        className: "absolute top-20 right-[35%] rotate-[2deg]",
+        className: "absolute top-25 left-[63%] rotate-[8deg]",
     },
     {
         title: "April 13, 2023",
         image: "/images/photos/04-13-23.jpeg",
-        className: "absolute top-5 left-[40%] rotate-[8deg]",
+        className: "absolute top-12 left-[35%] rotate-[10deg]",
+    },
+    {
+        title: "May 10, 2023",
+        image: "/images/photos/05-10-23.jpeg",
+        className: "absolute top-66 right-[33%] rotate-[2deg]",
     },
     {
         title: "June 03, 2023",
         image: "/images/photos/06-03-23.jpg",
-        className: "absolute top-24 left-[45%] rotate-[-7deg]",
+        className: "absolute top-67 left-[67%] rotate-[-7deg]",
     },
     {
         title: "December 05, 2019",
-        image: "/images/photos/12-05-19.jpg",
-        className: "absolute top-48 left-[30%] rotate-[4deg]",
+        image: "/images/photos/04-18-23.jpg",
+        className: "absolute top-65 left-[12%] rotate-[4deg]",
     },
   ];
   return (

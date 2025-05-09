@@ -186,6 +186,15 @@ export const DraggableCardContainer = ({
   children?: React.ReactNode;
 }) => {
   return (
+    <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+    <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+      More Than Just a Developer
+    </h2>
+    <p className="text-neutral-700 mb-8 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+    I&apos;m a hobbyist photographer who loves capturing moments and turning them into visual stories.
+    </p>
+  
     <div className={cn("[perspective:3000px]", className)}>{children}</div>
+    </div>
   );
 };
