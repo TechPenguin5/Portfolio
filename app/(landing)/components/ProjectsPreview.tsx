@@ -72,12 +72,12 @@ const items = [
   {
     title: "Auro",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "todo",
       header: <ItemImage src="/images/projects/auro.png" href="https://github.com/TechPenguin5/Ambros"/>,
   },
   {
     title: "Style Omega",
-    description: "Join the quest for understanding and enlightenment.",
+    description: "todo",
     header: <ItemImage src="/images/projects/ambros.png" href="https://github.com/TechPenguin5/Ambros"/>,
   },
 ];
