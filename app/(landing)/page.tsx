@@ -5,16 +5,19 @@ import { ProjectsPreview } from "./components/ProjectsPreview";
 import { DraggablePhotoPreview } from "./components/DraggablePhotoPreview";
 import { TimelinePreview } from "./components/Timeline";
 import { CarouselPreview } from "./components/CarouselPreview";
+import BrandMarquee from "./components/BrandMarquee";
 
 export default function Home() {
   return (
     <div>
       <SpotlightPreview />
       <ToolTipPreview />
+      <BrandMarquee />
       <TimelinePreview />
-      <ProjectsPreview />
+      {/* <ProjectsPreview /> */}
       <DraggablePhotoPreview />
       <CarouselPreview/>
+
     </div>
   );
 }

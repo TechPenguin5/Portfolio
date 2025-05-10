@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "@/app/components/ui/animated-tooltip";
+import { h2 } from "motion/react-client";
 const people = [
   {
     id: 1,
@@ -47,8 +48,11 @@ const people = [
 
 export function ToolTipPreview() {
   return (
-    <div className="flex flex-row items-center justify-center mt-30 w-full">
-      <AnimatedTooltip items={people} />
+    <div className="mt-20">
+      <h2 className="text-center text-4xl font-semibold">Skills</h2>
+      <div className="flex flex-row items-center justify-center mt-10 mb-20 w-full">
+        <AnimatedTooltip items={people} />
+      </div>
     </div>
   );
 }
