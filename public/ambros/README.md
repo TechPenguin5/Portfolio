@@ -1,0 +1,3 @@
+Responsive, Adaptive, Business, One-Page, HTML5, CSS3, JQuerry, Multi-Purpose, Fast
+
+Ambros is a unique one page layout which takes into consideration both style and function. With subtle animations and prominent CSS styling, Ambros is a site that is versatile and functional. The code is easy to modify and can suit many needs well. Clear illustrations in the CSS are given to make sure you always know what you're looking at.

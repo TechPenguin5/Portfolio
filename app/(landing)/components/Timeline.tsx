@@ -134,10 +134,87 @@ export function TimelinePreview() {
       ),
     },
     {
+      title: "2016 - 2017",
+      content: (
+        <div>
+          <h3>
+            <a
+              href="/startrust/dashboard.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl font-bold text-white-600 hover:underline"
+            >
+              Startrust
+            </a>
+          </h3>
+          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
+            A responsive frontend mockup of a modern online banking system, built entirely from scratch using HTML and CSS to demonstrate clean UI, accessibility, and structured navigation.
+          </p>
+          <div className="mb-8">
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+              • Dashboard overview with recent activity
+            </div>
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+              • Account creation form (Open Account)
+            </div>
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+              • Transfer Funds interface with user feedback
+            </div>
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+              • Payments and transaction history section
+            </div>
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+              • Fully responsive layout for mobile and desktop with adaptive navbar and menu
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="/images/projects/startrust/login.png"
+              alt="hero template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src="/images/projects/startrust/dashboard.png"
+              alt="feature template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src="/images/projects/startrust/credit-cards.png"
+              alt="bento template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src="/images/projects/startrust/menu.png"
+              alt="cards template"
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
       title: "2016",
       content: (
         <div>
-          <h3>Ambros</h3>
+          <h3>            
+            <a
+              href="/ambros/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl font-bold text-white-600 hover:underline"
+            >
+              Ambros
+            </a>
+          </h3>
           <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             Responsive, Adaptive, Business, One-Page, HTML5, CSS3, JQuerry, Multi-Purpose, Fast
           </p>
@@ -183,25 +260,37 @@ export function TimelinePreview() {
       title: "2014",
       content: (
         <div>
-          <h3>TechFusion+</h3>
+          <h3>            
+            <a
+              href="https://xdaforums.com/t/rom-kitkat-4-4-4-techfusion-v4.2776563/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xl font-bold text-white-600 hover:underline"
+            >
+              TechFusion+
+            </a>
+          </h3>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-          A custom firmware that integrates the best aspects of Sony, One+ and AOSP to other platforms and devices.
+            TechFusion+ is a fast, stylish, and versatile custom ROM that combines the best elements of Sony, OnePlus, and AOSP to deliver a unique and stable experience.
           </p>
           <div className="mb-8">
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Card grid component
+              • Latest Xperia & OnePlus features integrated
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Startup template Aceternity
+              • Theme enigine compatibility
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Random file upload lol
+              • Updatable through custom recovery
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Himesh Reshammiya Music CD
+              • Includes Walkman, Album, Xperia apps, PlayStation Mobile
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              ✅ Salman Bhai Fan Club registrations open
+              • Updated CM base and performance enhancements
+            </div>
+            <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
+              • Responsive UI with improved sound and battery life
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

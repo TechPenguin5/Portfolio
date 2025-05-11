@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="js/code.js"></script>
+        <title>Credit Cards</title>
+    </head>
+    
+    <body>   
+        <div class="nav">
+            <h1>Star</h1>
+                <h1 id="trust">Trust</h1>
+            <ul>
+                <li>
+                    <img src="img/dashboard.png" alt="dashboard">
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li>
+                    <img src="img/account.png" alt="Account">
+                    <a href="open_account.html">Open Account</a>
+                </li>
+                <li>
+                    <img src="img/money.png" alt="Transfer Funds">
+                    <a href="transfer_funds.html">Transfer Funds</a>
+                </li>
+                <li>
+                   <img src="img/payment_history.png" alt="Payments">
+                    <a href="payments.html">Payments</a>
+                </li>   
+                <li id="active">
+                    <img src="img/credit_card.png" alt="Credit Card">
+                    <a href="#">Credit Cards</a>
+                </li>
+                <li>
+                    <img src="img/standing_order.png" alt="Standing Order">
+                    <a href="standing_order.html">Standing Orders</a>
+                </li>
+                <li id="last">
+                    <img src="img/message.png" alt="Messages">
+                    <a href="messages.html">Messages</a>
+                </li>         
+            </ul>
+        </div>
+        
+        <div id="menu">
+            <a href="#">
+                <img src="img/menu.png" alt="">
+            </a>
+        </div>
+         
+        <div id="close-menu">
+            <a href="#">X</a>     
+        </div>
+          
+        <div class="status">
+           <div class="status-col">
+             <div class="structure-title">
+                <h1>Star</h1>
+                <h1 id="trust">Trust</h1>
+             </div>
+              <div class="structure">
+                  Credit Cards
+              </div>
+               <div class="status-col-container">
+                   <p id="user-name">Malindra</p>
+                   <img id="userIco" src="img/user.png" alt="">
+                   <img id="seperator" src="img/seperator.png">
+                   <img id="logoutBtn" src="img/logout.png">
+               </div>
+           </div>
+        </div>
+
+        <div class="main">
+           <div class="card-details">
+               <div class="card-details-contents">
+                 <a id="card-details-close">
+                     X
+                 </a>
+                  <div class="acc-type">
+                     <h2>Card Details</h2>
+                  </div>
+                  <div class ="main-content-col-acc">
+                     <div class="add-account">
+                         <form id="add-account-form" action="">
+                            <div class="entry-section">
+                             <p>Card Holder</p>
+                                <input type="text" value="D M C PERERA" disabled>
+                            </div>
+                            <div class="entry-section">
+                             <p>Card Number</p>
+                                <input type="text" value="1234 5678 5432" disabled>
+                            </div>
+                            <div class="entry-section">
+                             <p>Expiry Date</p>
+                                <input type="text" value=" December 2020" disabled>
+                            </div>
+                            <div class="entry-section">
+                             <p>PIN</p>
+                                <input type="text" value="1234" disabled>
+                            </div>
+                            <div class="entry-section">
+                             <p>Amount Due</p>
+                                <input type="text" value="LKR 2000.00" disabled>
+                            </div>
+                            <button>
+                                Settle Balance
+                            </button>
+                         </form>
+                      </div>
+                  </div>
+               </div>
+           </div>
+           <div class="card" id="first-card">
+            <a class="card-link">
+                <div class="credit-card">
+                    <h3>Star<span>Trust</span></h3>
+                    <img src="img/credit_card_chip.png" alt="">
+                    <p class="card-number">1234 5678 9876 5432</p>
+                    <p>1234</p>
+                    <p>D M C PERERA</p>
+                    <p class="expiry">Expires: 12/20</p>    
+                </div>
+            </a>
+            </div>
+            <div class="card" id="card-black">
+            <a class="card-link">
+                <div class="credit-card">
+                    <h3>Star<span>Trust</span></h3>
+                    <img src="img/credit_card_chip.png" alt="">
+                    <p class="card-number">3453 4554 4342 5453</p>
+                    <p>1846</p>
+                    <p>G F D FERNANDO</p>
+                    <p class="expiry">Expires: 10/22</p>    
+                </div>
+            </a>
+            </div>
+            <div class="new-card">
+                <a class="card-link">
+                    New Card
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
