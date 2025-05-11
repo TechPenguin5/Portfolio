@@ -13,7 +13,9 @@ const logos = [
 
 export default function BrandMarquee() {
   return (
-    <div className="overflow-hidden whitespace-nowrap py-8 bg-white">
+    <div>
+      <h2 className="text-center text-4xl font-semibold">Brands I have worked with</h2>
+    <div className="overflow-hidden whitespace-nowrap py-8 bg-white bg-opacity-50 backdrop-blur-lg mt-10">
       <div className="flex animate-scroll max-w-40 space-x-16">
         {[...logos, ...logos].map((logo, idx) => (
           <img
@@ -24,6 +26,7 @@ export default function BrandMarquee() {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 }
