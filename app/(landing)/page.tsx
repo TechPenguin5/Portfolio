@@ -6,6 +6,7 @@ import { DraggablePhotoPreview } from "./components/DraggablePhotoPreview";
 import { TimelinePreview } from "./components/Timeline";
 import { CarouselPreview } from "./components/CarouselPreview";
 import BrandMarquee from "./components/BrandMarquee";
+import { ContactPreview } from "./components/ContactPreview";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       {/* <ProjectsPreview /> */}
       <DraggablePhotoPreview />
       <CarouselPreview/>
-
+      <ContactPreview />
     </div>
   );
 }
