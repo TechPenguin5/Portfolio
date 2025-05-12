@@ -28,13 +28,13 @@ export function TimelinePreview() {
               • Full support for Roon, Spotify Connect, Tidal Connect, AirPlay, HQPlayer, and more
             </div>
             <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-              • Hardware-integrated for optimal audio fidelity
+              • Hardware-coupled for optimal audio fidelity
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/auro/mobile.png"
-              alt="hero template"
+              alt="mobile"
               width={500}
               height={500}
               loading="lazy"
@@ -42,7 +42,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/auro/web.png"
-              alt="feature template"
+              alt="web"
               width={500}
               height={500}
               loading="lazy"
@@ -57,7 +57,14 @@ export function TimelinePreview() {
       content: (
         <div>
           <h3 className="text-xl font-bold text-white-600">
-            Rizing
+            <a
+                  href="https://rizing.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xl font-bold text-white-600 hover:underline"
+                >
+                  Rizing
+            </a>
           </h3>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             Developed modern, responsive SAP Fiori applications and dashboards for enterprise workflows across sales, warehouse, and finance, using Core Data Services (CDS), UI5, and OData integrations.
@@ -94,7 +101,7 @@ export function TimelinePreview() {
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/rizing/dashboard.jpg"
-              alt="startup template"
+              alt="dashboard"
               width={500}
               height={500}
               loading="lazy"
@@ -102,7 +109,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/rizing/ui.png"
-              alt="startup template"
+              alt="ui"
               width={500}
               height={500}
               loading="lazy"
@@ -117,7 +124,14 @@ export function TimelinePreview() {
       content: (
         <div>
           <h3 className="text-xl font-bold text-white-600">
-            Virseis
+            <a
+                href="https://www.linkedin.com/company/virseis/posts/?feedView=all"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xl font-bold text-white-600 hover:underline"
+              >
+                Virseis
+            </a>
           </h3>
           <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
             Developed accessible, user-friendly interfaces and dashboards using React, .NET, and Python for order tracking, supplier coordination, production planning, inventory management, and sales.
@@ -140,7 +154,7 @@ export function TimelinePreview() {
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/virseis/travel-lanka-journeys.png"
-              alt="hero template"
+              alt="dashboard"
               width={500}
               height={500}
               loading="lazy"
@@ -148,7 +162,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/virseis/menu.jpg"
-              alt="feature template"
+              alt="menu"
               width={500}
               height={500}
               loading="lazy"
@@ -156,7 +170,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/virseis/tlj-more.png"
-              alt="hero template"
+              alt="more"
               width={500}
               height={500}
               loading="lazy"
@@ -164,7 +178,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/virseis/shopping.jpg"
-              alt="feature template"
+              alt="shopping"
               width={500}
               height={500}
               loading="lazy"
@@ -212,7 +226,7 @@ export function TimelinePreview() {
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/startrust/login.png"
-              alt="hero template"
+              alt="login"
               width={500}
               height={500}
               loading="lazy"
@@ -220,7 +234,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/startrust/dashboard.png"
-              alt="feature template"
+              alt="dashboard"
               width={500}
               height={500}
               loading="lazy"
@@ -228,7 +242,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/startrust/credit-cards.png"
-              alt="bento template"
+              alt="credit-cards"
               width={500}
               height={500}
               loading="lazy"
@@ -236,7 +250,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/startrust/menu.png"
-              alt="cards template"
+              alt="menu"
               width={500}
               height={500}
               loading="lazy"
@@ -271,7 +285,7 @@ export function TimelinePreview() {
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/ambros/ambros.png"
-              alt="hero template"
+              alt="landing"
               width={500}
               height={500}
               loading="lazy"
@@ -279,7 +293,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/ambros/ambros-about.png"
-              alt="feature template"
+              alt="about"
               width={500}
               height={500}
               loading="lazy"
@@ -326,7 +340,7 @@ export function TimelinePreview() {
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/protoge/protoge.png"
-              alt="hero template"
+              alt="landing"
               width={500}
               height={500}
               loading="lazy"
@@ -334,7 +348,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/protoge/services.png"
-              alt="feature template"
+              alt="services"
               width={500}
               height={500}
               loading="lazy"
@@ -384,7 +398,7 @@ export function TimelinePreview() {
           <div className="grid grid-cols-2 gap-4">
             <img
               src="/images/projects/techfusionplus/Screenshot_2014-07-13-00-45-59.jpg"
-              alt="hero template"
+              alt="screenshot 1"
               width={500}
               height={500}
               loading="lazy"
@@ -392,7 +406,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/techfusionplus/Screenshot_2014-07-13-00-43-53.png"
-              alt="feature template"
+              alt="screenshot 2"
               width={500}
               height={500}
               loading="lazy"
@@ -400,7 +414,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/techfusionplus/Screenshot_2014-07-13-00-44-05.png"
-              alt="bento template"
+              alt="screenshot 3"
               width={500}
               height={500}
               loading="lazy"
@@ -408,7 +422,7 @@ export function TimelinePreview() {
             />
             <img
               src="/images/projects/techfusionplus/Screenshot_2014-07-08-17-18-06.png"
-              alt="cards template"
+              alt="screenshot 4"
               width={500}
               height={500}
               loading="lazy"
