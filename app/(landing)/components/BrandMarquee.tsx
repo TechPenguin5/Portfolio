@@ -1,16 +1,17 @@
 "use client";
 
 const logos = [
-  "/images/brands/birkenstock-logo.png",
-  "/images/brands/carhartt-logo.png",
-  "/images/brands/wolverine-logo.jpg",
-  "/images/brands/colehaan-logo.png",
-  "/images/brands/burberry-logo.svg",
   "/images/brands/americo-logo.png",
   "/images/brands/ngvc-logo.png",
+  "/images/brands/wolverine-logo.jpg",
+  "/images/brands/birkenstock-logo.png",
+  "/images/brands/burberry-logo.svg",
+  "/images/brands/crocs-logo.jpg",
+  "/images/brands/colehaan-logo.png",
   "/images/brands/capezio-logo.svg",
   "/images/brands/centricbrands-logo.png",
   "/images/brands/gbg-logo.png",
+  "/images/brands/carhartt-logo.png",
 ];
 
 export default function BrandMarquee() {
