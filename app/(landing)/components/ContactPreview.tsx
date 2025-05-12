@@ -1,16 +1,17 @@
 "use client";
 import React from "react";
-import { BackgroundBeams } from "@/app/components/ui/background-beams";
+import { WavyBackground } from "@/app/components/ui/wavy-background";
 
 export function ContactPreview() {
   return (
-    <div className="h-[40rem] w-full rounded-md bg-neutral-950 relative flex flex-col items-center justify-center antialiased contact-me">
-      <div className="max-w-2xl mx-auto p-4">
-        <p className="mb-20 text-center text-3xl font-bold text-neutral-800 dark:text-white">
+    <WavyBackground className="max-w-4xl mx-auto pb-40 contact-me">
+      <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
         Thanks for checking out my Portfolio.
+      </p>
+      <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
         Lets get in touch.
-        </p>
-        <div className="flex justify-center mt-6">
+      </p>
+      <div className="flex justify-center mt-6">
           <a
             href="https://www.linkedin.com/in/malindrap/"
             target="_blank"
@@ -21,8 +22,6 @@ export function ContactPreview() {
             </button>
           </a>
         </div>
-      </div>
-      <BackgroundBeams />
-    </div>
+    </WavyBackground>
   );
 }
