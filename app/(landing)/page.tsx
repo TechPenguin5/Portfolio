@@ -7,6 +7,7 @@ import { TimelinePreview } from "./components/Timeline";
 import { CarouselPreview } from "./components/CarouselPreview";
 import BrandMarquee from "./components/BrandMarquee";
 import { ContactPreview } from "./components/ContactPreview";
+import { LaptopScroll } from "./components/LaptopScroll";
 
 export default function Home() {
   return (
@@ -15,10 +16,10 @@ export default function Home() {
       <ToolTipPreview />
       <BrandMarquee />
       <TimelinePreview />
-      {/* <ProjectsPreview /> */}
       <DraggablePhotoPreview />
       <CarouselPreview/>
-      <ContactPreview />
+      {/* <ContactPreview /> */}
+      <LaptopScroll />
     </div>
   );
 }
