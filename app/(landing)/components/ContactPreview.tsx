@@ -1,10 +1,9 @@
 "use client";
 import React from "react";
-import { WavyBackground } from "@/app/components/ui/wavy-background";
 
 export function ContactPreview() {
   return (
-    <WavyBackground className="max-w-4xl mx-auto pb-40 contact-me">
+    <div className="max-w-4xl mx-auto pb-40 contact-me">
       <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
         Thanks for checking out my Portfolio.
       </p>
@@ -22,6 +21,6 @@ export function ContactPreview() {
             </button>
           </a>
         </div>
-    </WavyBackground>
+    </div>
   );
 }
