@@ -44,3 +44,22 @@ body {
   display: flex;
   width: max-content;
 }
+
+@media (max-width: 768px) {
+  .brand-image {
+    max-width: 60px;
+  }
+
+  .brand-container {
+    padding: 0;
+  }
+
+  .spotlight-container {
+    height: 350px;
+  }
+
+  .laptop-scroll {
+    margin: 0;
+    padding: 0;
+  }
+}

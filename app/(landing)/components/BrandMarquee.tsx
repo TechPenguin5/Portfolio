@@ -18,14 +18,14 @@ export default function BrandMarquee() {
   return (
     <div>
       <h2 className="text-center text-4xl font-semibold">Brands I have worked with</h2>
-      <div className="relative overflow-hidden whitespace-nowrap py-8 bg-white bg-opacity-50 backdrop-blur-lg mt-10">
+      <div className="relative overflow-hidden whitespace-nowrap py-8 bg-white bg-opacity-50 backdrop-blur-lg mt-10 brand-container">
         <div className="animate-scroll space-x-16">
           {[...logos, ...logos].map((logo, idx) => (
-            <img
+            <img 
               key={idx}
               src={logo}
               alt={`Brand ${idx}`}
-              className="h-20 max-w-40 w-auto object-contain inline-block"
+              className="h-20 max-w-40 w-auto object-contain inline-block brand-image"
             />
           ))}
         </div>
