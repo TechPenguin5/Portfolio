@@ -61,5 +61,23 @@ body {
   .laptop-scroll {
     margin: 0;
     padding: 0;
+    display: none;
+  }
+
+  .contact-me {
+    display: block;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-me {
+    display: none;
+  }
+
+  .laptop-scroll {
+    display: block;
   }
 }

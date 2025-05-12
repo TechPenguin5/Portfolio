@@ -18,7 +18,7 @@ export default function Home() {
       <TimelinePreview />
       <DraggablePhotoPreview />
       <CarouselPreview/>
-      {/* <ContactPreview /> */}
+      <ContactPreview />
       <LaptopScroll />
     </div>
   );
